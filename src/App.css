@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inst{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listContainer{
+  margin: auto;
+}
+
+.strList{
+  list-style: none;
+    margin: auto;
+    padding: 0;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.strList > li {
+  text-align: center;
+}
+
+.resList{
+  list-style: none;
+    margin: auto;
+    padding: 0;
+    margin-top:2%;
+    visibility:hidden;
+}
+
+.resList > li{
+  text-align: center;
+}
+
+.resList > li > p{
+  margin-left: 0%;
+}
+
+.input{
+  max-width: 30vw;
+    margin: auto;
+}
+
+.button{
+  max-width: 30vw;
+  margin: auto;
+  margin-top: 2%;
+}
